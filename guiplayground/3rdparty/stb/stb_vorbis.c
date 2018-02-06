@@ -4972,6 +4972,8 @@ stb_vorbis * stb_vorbis_open_file(FILE *file, int close_on_free, int *error, con
    return stb_vorbis_open_file_section(file, close_on_free, error, alloc, len);
 }
 
+#pragma warning(push)
+#pragma warning(disable:4996)
 stb_vorbis * stb_vorbis_open_filename(const char *filename, int *error, const stb_vorbis_alloc *alloc)
 {
    FILE *f = fopen(filename, "rb");
@@ -4980,6 +4982,7 @@ stb_vorbis * stb_vorbis_open_filename(const char *filename, int *error, const st
    if (error) *error = VORBIS_file_open_failure;
    return NULL;
 }
+#pragma warning(pop)
 #endif // STB_VORBIS_NO_STDIO
 
 stb_vorbis * stb_vorbis_open_memory(const unsigned char *data, int len, int *error, const stb_vorbis_alloc *alloc)
