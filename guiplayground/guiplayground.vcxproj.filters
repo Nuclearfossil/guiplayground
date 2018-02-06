@@ -5,6 +5,16 @@
     <ClCompile Include="3rdparty\stb\stb_vorbis.c">
       <Filter>3rd Party\stb</Filter>
     </ClCompile>
+    <ClCompile Include="imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="3rdparty\imgui\imgui.cpp">
+      <Filter>3rd Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui_demo.cpp">
+      <Filter>3rd Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\imgui\imgui_draw.cpp">
+      <Filter>3rd Party\imgui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="guiplayground.h" />
@@ -72,6 +82,25 @@
     <ClInclude Include="3rdparty\glfw\include\GLFW\glfw3native.h">
       <Filter>3rd Party\glfw</Filter>
     </ClInclude>
+    <ClInclude Include="imgui_impl_glfw_gl3.h" />
+    <ClInclude Include="3rdparty\imgui\imconfig.h">
+      <Filter>3rd Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imgui.h">
+      <Filter>3rd Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\imgui_internal.h">
+      <Filter>3rd Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\stb_rect_pack.h">
+      <Filter>3rd Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\stb_textedit.h">
+      <Filter>3rd Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\imgui\stb_truetype.h">
+      <Filter>3rd Party\imgui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="3rd Party">
@@ -82,6 +111,9 @@
     </Filter>
     <Filter Include="3rd Party\stb">
       <UniqueIdentifier>{f3392e4b-7416-4715-9a7f-0c4dc715773f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd Party\imgui">
+      <UniqueIdentifier>{40bef8d0-9554-458a-8bde-7cb00765397a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
