@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="guiplayground.cpp" />
+    <ClCompile Include="3rdparty\stb\stb_vorbis.c">
+      <Filter>3rd Party\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="guiplayground.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="3rdparty\stb\stb.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_c_lexer.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_connected_components.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_divide.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_dxt.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_easy_font.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_herringbone_wang_tile.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_image.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_image_resize.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_image_write.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_leakcheck.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_perlin.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_rect_pack.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_sprintf.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_textedit.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_tilemap_editor.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_truetype.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stb_voxel_render.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\stb\stretchy_buffer.h">
+      <Filter>3rd Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\glfw\include\GLFW\glfw3.h">
+      <Filter>3rd Party\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\glfw\include\GLFW\glfw3native.h">
+      <Filter>3rd Party\glfw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3rd Party">
+      <UniqueIdentifier>{f28ac7ae-9e5f-48ec-be3a-0748d20cbb0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd Party\glfw">
+      <UniqueIdentifier>{65eb620c-88b1-4f02-8afd-4a4932ba0195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd Party\stb">
+      <UniqueIdentifier>{f3392e4b-7416-4715-9a7f-0c4dc715773f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
