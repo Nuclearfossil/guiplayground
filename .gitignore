@@ -11,16 +11,24 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+/[Dd]ebug/
+/[Dd]ebugPublic/
+/[Rr]elease/
+/[Rr]eleases/
+/x64/
+/x86/
+/bld/
+/[Bb]in/
+/[Oo]bj/
+/[Ll]og/
+
+/guiplayground/[Dd]ebug/
+/guiplayground/[Dd]ebugPublic/
+/guiplayground/[Rr]elease/
+/guiplayground/[Rr]eleases/
+/guiplayground/x64/
+/guiplayground/x86/
+/guiplayground/Win32/
 
 # Visual Studio 2015 cache/options directory
 .vs/
