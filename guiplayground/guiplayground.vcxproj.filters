@@ -15,6 +15,12 @@
     <ClCompile Include="3rdparty\imgui\imgui_draw.cpp">
       <Filter>3rd Party\imgui</Filter>
     </ClCompile>
+    <ClCompile Include="widgets\imgui_tabs.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\TextEditor.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="guiplayground.h" />
@@ -101,6 +107,12 @@
     <ClInclude Include="3rdparty\imgui\stb_truetype.h">
       <Filter>3rd Party\imgui</Filter>
     </ClInclude>
+    <ClInclude Include="widgets\imgui_tabs.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\TextEditor.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="3rd Party">
@@ -114,6 +126,9 @@
     </Filter>
     <Filter Include="3rd Party\imgui">
       <UniqueIdentifier>{40bef8d0-9554-458a-8bde-7cb00765397a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets">
+      <UniqueIdentifier>{0fbb806c-afae-4e37-a42d-bfb2423b780c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

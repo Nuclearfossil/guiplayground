@@ -193,6 +193,8 @@
     <ClInclude Include="guiplayground.h" />
     <ClInclude Include="imgui_impl_glfw_gl3.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="widgets\imgui_tabs.h" />
+    <ClInclude Include="widgets\TextEditor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3rdparty\imgui\imgui.cpp" />
@@ -201,6 +203,8 @@
     <ClCompile Include="3rdparty\stb\stb_vorbis.c" />
     <ClCompile Include="guiplayground.cpp" />
     <ClCompile Include="imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="widgets\imgui_tabs.cpp" />
+    <ClCompile Include="widgets\TextEditor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>
